@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/promag" />
+
+        <TextView
+            android:id="@+id/name_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/detail_image"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Promag Suspensi 7ml 6 Sachet"
+            android:textColor="@color/purple_500"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/manufacture_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Kalbe Farma"
+            android:layout_below="@+id/name_med"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppinssemibold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/price_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/manufacture_med"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="20000"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/desc_med"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price_med"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/desc_detail_med"
+            android:fontFamily="@font/poppinsregular"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word" />
+
+        <EditText
+            android:id="@+id/quantity_med"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/desc_med"
+            android:layout_toStartOf="@id/buy_med"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/poppinsbold"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textColorHint="@color/purple_500"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/buy_med"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quantity_med"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/poppinssemibold"
+            android:text="Buy"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/back_med"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buy_med"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/poppinsregular"
+            android:text="back"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</ScrollView>

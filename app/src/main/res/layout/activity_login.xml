@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/logoputih"
+        android:layout_width="396dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_hitam" />
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="496dp"
+        android:background="@drawable/card"
+        android:elevation="20dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/headerLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Welcome and Enjoy !"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/subheaderLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Login to Continue."
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/emailForm"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_shape"
+            android:ems="10"
+            android:fontFamily="@font/poppinsregular"
+            android:gravity="center_vertical"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="20dp"
+            android:textColor="@color/abu"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/passwordForm"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/poppinsregular"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingHorizontal="20dp"
+            android:textColor="@color/abu"
+            android:textSize="20dp"
+
+            />
+
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/primary"
+            android:fontFamily="@font/poppinsregular"
+            android:text="LOGIN"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/regisText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/poppinsregular"
+            android:gravity="center"
+            android:text="Don't have an account?" />
+
+        <Button
+            android:id="@+id/buttonGotoregis"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape"
+            android:fontFamily="@font/poppinsregular"
+            android:gravity="center"
+            android:text="Go to Register" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

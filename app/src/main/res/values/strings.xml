@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PharmacyBluejack</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="descAboutUs">Bluejack Pharmacy is a pharmacy founded by the Bluejackets Community. Today, it stands as one of the best pharmacies in Indonesia. Currently, they are trying to reach more customers by creating a mobile application based on Android operating system that can be downloaded by customers, thus increasing Bluejack Pharmacy’s popularity.</string>
+
+    <string name="desc_detail_med">PROMAG merupakan obat sakit maag yang mengandung Hydrotalcite, Magnesium Hydroxide, dan Simethicone. Obat ini diigunakan untuk meringankan gejala sakit maag akibat kelebihan asam lambung seperti perih, mual, kembung, dan nyeri ulu hati.</string>
+</resources>

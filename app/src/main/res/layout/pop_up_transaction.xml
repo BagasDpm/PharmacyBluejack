@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#40000000"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="80dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@color/white"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Item"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:fontFamily="@font/poppinsbold"/>
+
+        <EditText
+            android:layout_margin="15dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/quantity_edit_text"
+            android:text="Quantity"
+            android:textAlignment="center"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/quantity_edit_save"
+            android:text="Save"
+            android:textAlignment="center"
+            android:background="@drawable/button_shape"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
